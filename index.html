@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Team 7 meeting minutes for Study Room Booking App brainstorm">
+        <title>Meeting Minutes - Study Room Booking App</title>
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+        <header>
+            <h1>Study Room Booking App</h1>
+            <h2>Brainstorming Session</h2>
+            <h3>April 9, 2026</h3>
+            <nav>
+                <a href="#attendance">Attendance</a> |
+                <a href="#agenda">Agenda</a> |
+                <a href="#unfinished">Unfinished Business</a> |
+                <a href="#new">New Business</a> |
+                <a href="#misc">Misc</a> |
+                <a href="#media">Media</a>
+            </nav>
+        </header>
+        <main>
+            <section id="attendance">
+                <h2>Attendance</h2>
+                <ul>
+                    <li>Theo Lee</li>
+                    <li>Jack</li>
+                    <li>Kareem</li>
+                    <li>Ethan</li>
+                </ul>
+            </section>
+            <section id="agenda">
+                <h2>Agenda</h2>
+                <ol>
+                    <li>Decide on app feature</li>
+                    <li>Discuss tech stack</li>
+                    <li>Assign roles</li>
+                    <li>Set project timeline</li>
+                </ol>
+            </section>
+            <section id="unfinished">
+                <h2>Unfinished Business</h2>
+                <p><em>No unfinished business</em> - this is our <strong>first meeting</strong>.</p>
+            </section>
+            <section id="new">
+                <h2>New Business</h2>
+                <p>We discussed the following <b>key topics</b> for our <i>Study Room Booking App</i>:</p>
+                <details>
+                    <summary>Feature Ideas</summary>
+                    <ul>
+                        <li>Real-time room availability</li>
+                        <li>Reservation system with time slots</li>
+                        <li>Cancellation and modification</li>
+                    </ul>
+                </details>
+                <details>
+                    <summary>Tech Stack</summary>
+                    <ul>
+                        <li>Frontend: React</li>
+                        <li>Backend: Python + FastAPI</li>
+                        <li>Database: PostgreSQL</li>
+                    </ul>
+                </details>
+            </section>
+            <section id="misc">
+                <h2>Miscellaneous</h2>
+                <p>Questions and comments:</p>
+                <ul>
+                    <li>Should we support multiple libraries? <br> — To be decided next meeting</li>
+                    <li>Need to check UCSD room booking API availability</li>
+                </ul>
+                <hr>
+                <p>Next meeting: <span>April 16, 2026</span></p>
+            </section>
+            <section id="media">
+                <h2>Media</h2>
+                <h3>Whiteboard Diagram</h3>
+                <img src="images/diagram.png" alt="Whiteboard diagram of app architecture">
+                <h3>Meeting Recording</h3>
+                <video controls>
+                    <source src="media/meeting.MOV" type="video/quicktime">
+                </video>
+                <h3>Audio Recording</h3>
+                <audio controls>
+                    <source src="media/meeting.m4a" type="audio/mp4">
+                </audio>
+            </section>
+        </main>
+        <footer>
+            <h2>Feedback Form</h2>
+            <form>
+                <fieldset>
+                    <legend>Meeting Feedback</legend>
+
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name"><br>
+
+                    <label for="date">Date:</label>
+                    <input type="date" id="date" name="date"><br>
+
+                    <input type="radio" id="yes" name="attend" value="yes">
+                    <label for="yes">Attended</label>
+                    <input type="radio" id="no" name="attend" value="no">
+                    <label for="no">Absent</label><br>
+
+                    <input type="checkbox" id="followup" name="followup">
+                    <label for="followup">Needs follow-up</label><br>
+
+                    <label for="comments">Comments:</label>
+                    <textarea id="comments" name="comments" rows="3" cols="30"></textarea><br>
+
+                    <label for="role-input">Role:</label>
+                    <input list="roles" id="role-input" name="role-input">
+                    <datalist id="roles">
+                        <option value="Developer"></option>
+                        <option value="Designer"></option>
+                    </datalist><br>
+
+                    <label for="priority">Priority level:</label>
+                    <select id="priority" name="priority">
+                        <option value="low">Low</option>
+                        <option value="high">High</option>
+                    </select><br>
+
+                    <button type="submit">Submit</button>
+                </fieldset>
+            </form>
+            <div>
+                <p>&copy; 2026 Team 7 - Study Room Booking App</p>
+            </div>
+        </footer>
+    </body>
+</html>
